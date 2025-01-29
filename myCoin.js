@@ -25,7 +25,7 @@ class Blockchain {
     }
 
     createGenesisBlock() {
-        return new Block(0, "Genesis Block", "0");
+        return new Block(0, "st", {amount :"1"});
     }
 
     getLatestBlock() {
